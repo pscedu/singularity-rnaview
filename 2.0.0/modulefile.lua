@@ -1,5 +1,5 @@
 --
--- rnaview latest modulefile
+-- rnaview 2.0.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
@@ -7,7 +7,7 @@
 -- "Keywords: singularity bioinformatics"
 
 whatis("Name: rnaview")
-whatis("Version: latest")
+whatis("Version: 2.0.0")
 whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: The RNAView program generates 2-dimensional displays of RNA/DNA secondary structures with tertiary interactions.")
@@ -18,11 +18,11 @@ The RNAView program generates 2-dimensional displays of RNA/DNA secondary struct
 
 To load the module type
 
-> module load rnaview/latest
+> module load rnaview/2.0.0
 
 To unload the module type
 
-> module unload rnaview/latest
+> module unload rnaview/2.0.0
 
 Tools included in this module are
 
@@ -30,6 +30,6 @@ Tools included in this module are
 ]])
 
 local package = "rnaview"
-local version = "latest"
+local version = "2.0.0"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
