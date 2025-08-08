@@ -13,7 +13,7 @@ From: ubuntu:22.04
     apt update
     apt install -y wget build-essential unzip
     cd /opt && wget https://github.com/rcsb/RNAView/archive/refs/tags/RNAView-v2.0.0.zip 
-    unzip RNAView-RNAView-v2.0.0.zip
+    unzip RNAView-v2.0.0.zip
     cd RNAView-RNAView-v2.0.0
     make
     chmod +x bin/rnaview
